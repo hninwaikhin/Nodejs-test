@@ -1,0 +1,38 @@
+{
+  "name": "youtube-iframe-player",
+  "version": "1.0.1",
+  "description": "This module load the iframe youtube iframe player API, let you create and control video players",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmoraleda/youtube-iframe-player"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "video",
+    "player"
+  ],
+  "author": "Miguel Moraleda",
+  "license": "MIT",
+  "dependencies": {
+    "beefy": "^2.1.8",
+    "csurf": "^1.9.0",
+    "express-stormpath": "^4.0.0",
+    "require-sdk": "0.0.2"
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "browserify": "^6.3.3",
+    "browserify-shim": "^3.8.0",
+    "domready": "^1.0.7"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/miguelmoraleda/youtube-iframe-player/blob/master/LICENSE"
+    }
+  ]
+}
